@@ -1,0 +1,17 @@
+{
+  "name": "tiny-profiler",
+  "version": "1.0.0",
+  "description": "Small profiling utility for node.js apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "find ./ -name '*.test.js' | xargs mocha  --timeout 1000"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "chai-spies-next": "^0.9.3",
+    "dirty-chai": "^2.0.1",
+    "mocha": "^3.4.2"
+  },
+  "author": "Emanuele De Cupis",
+  "license": "MIT"
+}
